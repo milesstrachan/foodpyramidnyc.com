@@ -46,3 +46,30 @@ a:hover {
     color: #2c5172;
     text-decoration: underline;
 }
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+        font-size: 16px;
+        padding-top: 60px;
+    }
+    h1 {
+        font-size: 32px;
+        padding: 20px 0 0 0;
+    }
+    img {
+        width: 90vw !important;
+        height: auto !important;
+        max-width: 100%;
+    }
+    p {
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+    footer {
+        font-size: 12px;
+        padding: 10px;
+    }
+    a {
+        font-size: 16px;
+    }
+}
