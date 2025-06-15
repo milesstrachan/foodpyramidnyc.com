@@ -59,6 +59,8 @@ a:hover {
     }
     img {
         display: block !important;
+        margin-top: auto !important
+        margin-bottom: auto !important;
         margin-left: auto !important;
         margin-right: auto !important;
         box-sizing: border-box;
